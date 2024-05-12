@@ -8,7 +8,7 @@ with open(search_terms_path,'r',encoding="utf-8") as f:
     keywords = [row for row in reader if reader.fieldnames[0] != None]
     keywords = json.loads(json.dumps(keywords))
 
-terms = ['clean','wash','routine']
+terms = [] # YOUR TARGET KEYWORDS HERE
 found = []
 
 for term in terms:
